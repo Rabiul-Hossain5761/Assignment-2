@@ -199,6 +199,97 @@ header{
     border-radius: 40px;
     padding: 40px;
 }
+.features-total{
+    background-color: #1A0B2E;
+}
+.features-inside{
+    width: 80%;
+    margin: 0px auto;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.features-head h1{
+    color: #FFFFFF;
+    text-align: center;
+    font-size:3rem ;
+    font-weight:700 ;
+}
+.features-card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    margin-top: 40px;
+}
+.ai-card,.remote-card,.career-card{
+    border: 2px solid red;
+}
+.ai-info,.remote-info,.career-info{
+    background-color: #250D44;
+    padding: 24px;
+    border-radius: 0px 0px 40px 40px;
+    height:200px;
+
+}
+.ai-info h3,.remote-info h3,.career-info h3{
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.ai-info p,.remote-info p,.career-info p{
+    color: #FFFFFF;
+    opacity: 60%;
+    font-size: 1rem;
+    margin-top: 16px;
+}
+.clock{
+    margin-top: 15px;
+}
+.clock span{
+    align-items: center;
+    color: #00FF88;
+    font-weight: 600;
+}
+.meet-total{
+    width: 80%;
+    margin: 0px auto;
+    padding-bottom: 120px;
+}
+.meet-head h1{
+    color: #FFFFFF;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.meet-body{
+    display: flex;
+    background-color: #351165;
+    gap: 24px;
+    padding: 40px;
+    align-items: center;
+    border-radius: 40px;
+
+}
+.meet-info h3{
+    color: #FFFFFF;
+    font-size:2rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+
+}
+.meet-info p{
+    font-size: 1rem;
+    color: #FFFFFF;
+    opacity: 60%;
+    margin-bottom: 16px;
+}
+.logo img{
+    border: 1px solid #533C72;
+    padding:20px;
+    border-radius:25%;
+    
+}
+
 
 
 
