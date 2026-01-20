@@ -326,6 +326,48 @@ footer{
     -webkit-text-fill-color: transparent;
 }
 @media screen and (max-width:576px){
+    .navbar,.navbar ul{
+        flex-direction: column;
+    }
+    .banner {
+    height: auto;
+    padding: 40px 16px;
+    background-position: center top, center;
+    }
+
+    .banner-card {
+    width: 100%;
+    padding-top: 40px;
+    }
+
+    .banner-img {
+    margin: 0;
+    background-size: 220px;
+    }
+
+    .banner-img img {
+    padding: 55px 75px;
+    width: 60px;
+    }
+
+    .banner-info {
+    margin-top: 24px;
+    }
+
+    .banner-info h1 {
+    font-size: 1.8rem;
+    }
+
+    .banner-info p {
+    font-size: 0.95rem;
+    margin-bottom: 20px;
+    }
+
+    .banner-info button {
+    width: 100%;
+    margin-bottom: 12px;
+    }
+
     .about-view{
         display:grid;
         grid-template-columns: repeat(2,1fr);
