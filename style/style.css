@@ -45,7 +45,6 @@ header{
     height:100vh;
 }
 .banner-card{
-    border: 1px solid black;
     padding-top: 80px;
     width: 35%;
     margin: 0px auto;
@@ -53,21 +52,18 @@ header{
     
 }
 .banner-img{
-    border: 2px solid red;
+
     margin: 0px 50px;
     background: url(../images/hero-circle.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size:330px;
     
-    
-    
 }
 .banner-img img{
     padding: 75px 115px;
 }
 .banner-info{
-    border: 2px solid yellow;
     margin-top:40px;
 }
 .banner-info p{
@@ -93,10 +89,8 @@ header{
 .about-total{
     width: 80%;
     margin: 0px auto;
-    border: 2px solid black;
 }
 .about-info{
-    border: 2px solid black;
     padding-top: 50px;
     padding-bottom: 80px;
     text-align: center;
@@ -117,13 +111,12 @@ header{
     margin-top: 10px;
 }
 .about-view{
-    border: 2px solid red;
     display: grid;
     grid-template-columns:repeat(4,1fr);
     grid-template-rows:repeat(1,auto);
     text-align: center;
     margin-top: 80px;
-    margin-bottom: 120px;
+    padding-bottom: 120px;
 
 }
 .about-view h1{
@@ -141,7 +134,7 @@ header{
 .choose{
     width: 80%;
     margin: 0px auto;
-    padding: 120px 0px;
+    padding:120px 0px ;
 }
 .choose-head h1{
     color: #FFFFFF;
@@ -170,7 +163,6 @@ header{
 }
 .headphone{
     background-color: #351165;
-    border: 1px solid white;
     grid-row: span 2;
     border-radius: 40px;
     padding:100px 40px;
@@ -220,9 +212,7 @@ header{
     gap: 30px;
     margin-top: 40px;
 }
-.ai-card,.remote-card,.career-card{
-    border: 2px solid red;
-}
+
 .ai-info,.remote-info,.career-info{
     background-color: #250D44;
     padding: 24px;
@@ -289,6 +279,70 @@ header{
     border-radius:25%;
     
 }
+footer{
+    background:url(../images/footer-bg.png);
+    background-repeat: no-repeat;
+    height: 50vh;
+}
+.footer-inside{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 120px;
+    margin-bottom: 120px;
+    
+}
+.footer-head h1{
+    color: #FFFFFF;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 32px;
+    
+}
+.footer-img{
+    display: flex;
+    gap: 8px;
+}
+.footer-img p{
+    color: #FFFFFF;
+    opacity: 60%;
+}
+.footer-logo{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+.footer-foot p{
+    color: #FFFFFF;
+    opacity: 60%;
+}
+#Wave{
+    background: linear-gradient(
+    to top,#F7E93F 0%,#FB09B4 51%,#9100F8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+@media screen and (max-width:576px){
+    .about-view{
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .choose-card{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .features-card{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .meet-body{
+        flex-direction: column;
+    }
+}
+
 
 
 
